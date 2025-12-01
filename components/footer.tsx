@@ -72,11 +72,6 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">{t("footer.services") || "Services"}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/commentaires" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {t("nav.testimonials") || "Témoignages"}
-                </Link>
-              </li>
-              <li>
                 <Link href="/faq" className="text-gray-300 hover:text-white transition-colors text-sm">
                   {t("nav.faq") || "FAQ"}
                 </Link>

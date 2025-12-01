@@ -12,7 +12,6 @@ export const translations: Record<Language, Translation> = {
       howItWorks: "Comment ça fonctionne",
       landPurchase: "Achat de terrains",
       multiUnitPurchase: "Achat multilogements",
-      testimonials: "Témoignages",
       faq: "FAQ",
       about: "À Propos",
       blog: "Blogue",
@@ -248,10 +247,6 @@ export const translations: Record<Language, Translation> = {
       step4Title: "Clôturez la vente",
       step4Desc: "Nous nous occupons de tout et vous recevez votre paiement rapidement.",
       learnMoreProcess: "En savoir plus sur notre processus",
-      testimonialsTitle: "Ce que nos clients disent",
-      testimonialsSubtitle:
-        "Découvrez les expériences de propriétaires qui ont vendu leur maison avec nous, peu importe l'état de leur propriété.",
-      viewAllTestimonials: "Voir tous les témoignages",
       ctaTitle: "Prêt à vendre votre maison rapidement et sans tracas?",
       ctaSubtitle:
         "Que votre maison soit en excellent état ou abandonnée depuis des années, nous sommes prêts à vous faire une offre équitable. Montréal, Laval, Rive Nord, Rive Sud - nous achetons partout!",
@@ -279,73 +274,6 @@ export const translations: Record<Language, Translation> = {
       grandMontreal: "Grand Montréal",
       riveSud: "Rive-Sud",
       riveNord: "Rive-Nord",
-    },
-    // Testimonials
-    testimonials: {
-      // Page content
-      pageTitle: "Ce que nos clients",
-      pageTitleHighlight: "disent de nous",
-      pageSubtitle:
-        "Découvrez les expériences authentiques de propriétaires qui ont vendu leur maison avec Quoi Faire Avec Ma Maison. Leurs témoignages reflètent notre engagement envers un service rapide, transparent et sans tracas.",
-
-      // Individual testimonials
-      title1: "Une équipe consciencieuse!",
-      text1: "Ève est fiable, dévouée et toujours de bonne humeur. Je referrais affaire avec elle n'importe quand.",
-      name1: "MARIANNE DAGENAIS LESPÉRANCE",
-      location1: "Lasalle, Qc",
-
-      title2: "Une vente rapide et efficace!",
-      text2:
-        "J'ai fait affaire avec Eve dans le cadre de la vente d'une maison à Saint-Lambert. La transaction s'est très bien passé puisqu'elle était toujours présente pour répondre à mes questions et que les suivis étaient rapides. Je recommande ses services fortement.",
-      name2: "GABRIEL CCOPA",
-      location2: "Saint-Lambert, Qc",
-
-      title3: "Vendu en deux semaines!",
-      text3:
-        "L'air climatisé de ma maison a pris en feu et endommagé une partie d'un mur extérieur. Je n'avais pas envie de me casser la tête avec les assurances, je voulais vendre et passer à autre chose. Ève est venue visiter la propriété et en deux semaines, nous sommes passé chez le notaire et j'ai été payé. Mon expérience est somme toute très positive et je la recommande à quiconque souhaite faire affaire avec une professionnelle.",
-      name3: "MICHEL COMPTOIS",
-      location3: "Châteauguay, Qc",
-
-      title4: "Service professionnel et efficace!",
-      text4:
-        "Service exceptionnel et professionnel. L'équipe a su répondre à toutes mes attentes et m'a guidé à travers tout le processus de vente. Je recommande vivement leurs services à quiconque cherche à vendre rapidement et sans tracas.",
-      name4: "PATRICK MARTIN",
-      location4: "Montréal, Qc",
-
-      // Sidebar content
-      sidebarComparisonTitle: "Afficher vs. Vendre avec nous",
-      sidebarQuestion1: "Quelle option est plus rapide?",
-      sidebarQuestion2: "Mets plus d'argent dans vos poches?",
-      sidebarQuestion3: "Vous offre une paix d'esprit immédiate?",
-      sidebarComparisonButton: "Voyez la différence ici",
-
-      sidebarOfferTitle: "Obtenez votre offre comptant ici",
-      sidebarOfferButton: "Obtenir mon offre comptant »",
-
-      sidebarBlogTitle: "Articles récents",
-      blogPost1: "La vérité surprenante d'être propriétaire à Montréal",
-      blogPost2:
-        "Propriétaire et frustré par vos locataires ? Voici 4 solutions pour gérer un locataire problématique à Montréal",
-      blogPost3: "Que faire si mon locataire a détruit ma maison à Montréal ?",
-      sidebarBlogButton: "Voir tous les articles",
-
-      // Share experience section
-      shareTitle: "Partagez votre expérience",
-      shareSubtitle: "Vous avez vendu votre maison avec nous? Nous aimerions connaître votre expérience.",
-
-      // Form fields
-      formNameLabel: "Nom complet",
-      formLocationLabel: "Ville",
-      formRatingLabel: "Votre évaluation",
-      formTitleLabel: "Titre de votre témoignage",
-      formTestimonialLabel: "Votre témoignage",
-      formSubmitButton: "Soumettre mon témoignage",
-
-      // Final CTA
-      finalCtaTitle: "Prêt à avoir votre propre histoire de succès?",
-      finalCtaSubtitle: "Rejoignez nos clients satisfaits et vendez votre maison rapidement et sans tracas.",
-      finalCtaButton1: "Obtenir mon offre maintenant",
-      finalCtaButton2: "Appelez-nous: 514-623-4280",
     },
     // Forms
     forms: {
@@ -751,7 +679,7 @@ export const translations: Record<Language, Translation> = {
 
       faq7Question: "Comment puis-je savoir que vous êtes légitimes?",
       faq7Answer:
-        "C'est une excellente question et nous sommes heureux que vous la posiez! La transparence et l'honnêteté sont des valeurs fondamentales pour notre entreprise. Nous vous invitons à consulter nos témoignages de clients satisfaits sur notre site. Nous sommes une entreprise locale avec une adresse physique et nous serons heureux de vous rencontrer en personne. Nous vous fournirons tous les documents nécessaires et nous travaillerons avec un notaire pour s'assurer que la transaction est légale et sécurisée.",
+        "C'est une excellente question et nous sommes heureux que vous la posiez! La transparence et l'honnêteté sont des valeurs fondamentales pour notre entreprise. Nous sommes une entreprise locale avec une adresse physique et nous serons heureux de vous rencontrer en personne. Nous vous fournirons tous les documents nécessaires et nous travaillerons avec un notaire pour s'assurer que la transaction est légale et sécurisée.",
 
       // Sidebar content
       sidebarQuestionsTitle: "Vous avez d'autres questions?",
@@ -1019,7 +947,6 @@ export const translations: Record<Language, Translation> = {
       howItWorks: "How It Works",
       landPurchase: "Land Purchase",
       multiUnitPurchase: "Multi-Unit Purchase",
-      testimonials: "Testimonials",
       faq: "FAQ",
       about: "About",
       blog: "Blog",
@@ -1253,10 +1180,6 @@ export const translations: Record<Language, Translation> = {
       step4Title: "Close the Sale",
       step4Desc: "We handle everything and you receive your payment quickly.",
       learnMoreProcess: "Learn more about our process",
-      testimonialsTitle: "What Our Clients Say",
-      testimonialsSubtitle:
-        "Discover the experiences of homeowners who sold their homes with us, regardless of their property's condition.",
-      viewAllTestimonials: "View All Testimonials",
       ctaTitle: "Ready to sell your home quickly and hassle-free?",
       ctaSubtitle:
         "Whether your home is in excellent condition or abandoned for years, we are ready to make you a fair cash offer. Montreal, Laval, North Shore, South Shore - we buy everywhere!",
@@ -1284,73 +1207,6 @@ export const translations: Record<Language, Translation> = {
       grandMontreal: "Greater Montreal",
       riveSud: "South Shore",
       riveNord: "North Shore",
-    },
-    // Testimonials
-    testimonials: {
-      // Page content
-      pageTitle: "What Our Clients",
-      pageTitleHighlight: "Say About Us",
-      pageSubtitle:
-        "Discover authentic experiences of homeowners who sold their homes with Quoi Faire Avec Ma Maison. Their testimonials reflect our commitment to a fast, transparent, and stress-free service.",
-
-      // Individual testimonials
-      title1: "A conscientious team!",
-      text1: "Ève is reliable, dedicated, and always in good spirits. I would do business with her anytime.",
-      name1: "MARIANNE DAGENAIS LESPÉRANCE",
-      location1: "Lasalle, Qc",
-
-      title2: "A quick and effective sale!",
-      text2:
-        "I dealt with Eve in the sale of a home in Saint-Lambert. The transaction went very well since she was always there to answer my questions and the follow-ups were fast. I strongly recommend her services.",
-      name2: "GABRIEL CCOPA",
-      location2: "Saint-Lambert, Qc",
-
-      title3: "Sold in two weeks!",
-      text3:
-        "The air conditioning in my home caught fire and damaged part of an exterior wall. I didn't want to hassle with insurance; I wanted to sell and move on. Eve visited the property, and in two weeks, we went to the notary, and I was paid. My experience is overall very positive, and I recommend it to anyone who wants to do business with a professional.",
-      name3: "MICHEL COMPTOIS",
-      location3: "Châteauguay, Qc",
-
-      title4: "Professional and effective service!",
-      text4:
-        "Exceptional and professional service. The team responded to all my expectations and guided me through the entire home selling process. I strongly recommend their services to anyone looking to sell quickly and hassle-free.",
-      name4: "PATRICK MARTIN",
-      location4: "Montreal, Qc",
-
-      // Sidebar content
-      sidebarComparisonTitle: "Show vs. Sell with Us",
-      sidebarQuestion1: "Which option is faster?",
-      sidebarQuestion2: "Put more money in your pockets?",
-      sidebarQuestion3: "Give you immediate peace of mind?",
-      sidebarComparisonButton: "See the difference here",
-
-      sidebarOfferTitle: "Get Your Cash Offer Here",
-      sidebarOfferButton: "Get My Cash Offer »",
-
-      sidebarBlogTitle: "Recent Articles",
-      blogPost1: "The Surprising Truth of Being a Homeowner in Montreal",
-      blogPost2:
-        "Homeowner and frustrated by your tenants? Here are 4 solutions to manage a problematic tenant in Montreal",
-      blogPost3: "What to Do if Your Tenant Destroyed Your Home in Montreal?",
-      sidebarBlogButton: "View All Articles",
-
-      // Share experience section
-      shareTitle: "Share Your Experience",
-      shareSubtitle: "Have you sold your home with us? We would love to hear about your experience.",
-
-      // Form fields
-      formNameLabel: "Full Name",
-      formLocationLabel: "City",
-      formRatingLabel: "Your Rating",
-      formTitleLabel: "Testimonial Title",
-      formTestimonialLabel: "Your Testimonial",
-      formSubmitButton: "Submit My Testimonial",
-
-      // Final CTA
-      finalCtaTitle: "Ready to have your own success story?",
-      finalCtaSubtitle: "Join our satisfied clients and sell your home quickly and hassle-free.",
-      finalCtaButton1: "Get My Offer Now",
-      finalCtaButton2: "Call Us: 514-623-4280",
     },
     // Forms
     forms: {
@@ -1748,7 +1604,7 @@ export const translations: Record<Language, Translation> = {
 
       faq7Question: "How can I know that you are legitimate?",
       faq7Answer:
-        "That's a great question, and we're glad you asked! Transparency and honesty are fundamental values for our company. We invite you to consult our satisfied clients' testimonials on our website. We are a local business with a physical address and would be happy to meet you in person. We will provide you with all necessary documents and work with a notary to ensure that the transaction is legal and secure.",
+        "That's a great question, and we're glad you asked! Transparency and honesty are fundamental values for our company. We are a local business with a physical address and would be happy to meet you in person. We will provide you with all necessary documents and work with a notary to ensure that the transaction is legal and secure.",
 
       // Sidebar content
       sidebarQuestionsTitle: "Do You Have Other Questions?",

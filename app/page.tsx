@@ -18,12 +18,33 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import OfferForm from "@/components/offer-form"
-import TestimonialSlider from "@/components/testimonial-slider"
 import AnimatedSection from "@/components/animated-section"
 import AreaCard from "@/components/area-card"
 import InvestorForm from "@/components/investor-form"
 import { useState } from "react"
 import { useLanguage } from "@/contexts/language-context"
+
+const FeatureCardComponent = ({ icon: Icon, title, description, gradient }: { 
+  icon: React.ComponentType<{ size?: number; className?: string }>; 
+  title: string; 
+  description: string; 
+  gradient?: string; 
+}) => {
+  return (
+    <div className="flex flex-col items-center text-center p-6 rounded-lg shadow-md bg-white">
+      <div
+        className={
+          gradient ||
+          "bg-gradient-to-br from-brand-700 to-brand-800 w-12 h-12 rounded-lg flex items-center justify-center mb-4"
+        }
+      >
+        <Icon size={24} className="text-white" />
+      </div>
+      <h3 className="font-bold text-lg mb-2">{title}</h3>
+      <p className="text-gray-600 text-sm">{description}</p>
+    </div>
+  )
+}
 
 export default function HomePage() {
   const { t } = useLanguage()
@@ -630,34 +651,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl font-bold mb-4">{t("home.testimonialsTitle")}</h2>
-            <p className="text-lg text-gray-600">{t("home.testimonialsSubtitle")}</p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <TestimonialSlider />
-          </div>
-
-          <div className="text-center mt-12">
-            <Button
-              asChild
-              variant="outline"
-              className="border-brand-700 text-brand-700 hover:bg-brand-50 bg-transparent"
-            >
-              <Link href="/commentaires">
-                {t("home.viewAllTestimonials")}
-                <ArrowRight size={16} className="ml-2" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
+      /* CTA Section */
       <section className="py-16 md:py-24 bg-gradient-to-br from-brand-700 to-brand-800 text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -721,28 +715,6 @@ export default function HomePage() {
 
       {/* Investor Form Modal */}
       {showInvestorForm && <InvestorForm type={formType} onClose={() => setShowInvestorForm(false)} />}
-    </div>
-  )
-}
-
-const FeatureCardComponent = ({ icon: Icon, title, description, gradient }: { 
-  icon: React.ComponentType<{ size?: number; className?: string }>; 
-  title: string; 
-  description: string; 
-  gradient?: string; 
-}) => {
-  return (
-    <div className="flex flex-col items-center text-center p-6 rounded-lg shadow-md bg-white">
-      <div
-        className={
-          gradient ||
-          "bg-gradient-to-br from-brand-700 to-brand-800 w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-        }
-      >
-        <Icon size={24} className="text-white" />
-      </div>
-      <h3 className="font-bold text-lg mb-2">{title}</h3>
-      <p className="text-gray-600 text-sm">{description}</p>
     </div>
   )
 }

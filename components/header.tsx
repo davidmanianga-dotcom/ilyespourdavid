@@ -166,9 +166,6 @@ export default function Header() {
               <NavLink href="/achat-multilogements" onClick={() => handleNavigation("/achat-multilogements")}>
                 {t("nav.multiUnitPurchase")}
               </NavLink>
-              <NavLink href="/commentaires" onClick={() => handleNavigation("/commentaires")}>
-                {t("nav.testimonials")}
-              </NavLink>
               <NavLink href="/faq" onClick={() => handleNavigation("/faq")}>
                 {t("nav.faq")}
               </NavLink>
@@ -245,9 +242,6 @@ export default function Header() {
               </MobileNavLink>
               <MobileNavLink onClick={() => handleMobileNavigation("/achat-multilogements")}>
                 {t("nav.multiUnitPurchase")}
-              </MobileNavLink>
-              <MobileNavLink onClick={() => handleMobileNavigation("/commentaires")}>
-                {t("nav.testimonials")}
               </MobileNavLink>
               <MobileNavLink onClick={() => handleMobileNavigation("/faq")}>{t("nav.faq")}</MobileNavLink>
               <MobileNavLink onClick={() => handleMobileNavigation("/a-propos")}>{t("nav.about")}</MobileNavLink>

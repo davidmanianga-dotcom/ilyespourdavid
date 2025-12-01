@@ -108,19 +108,6 @@ export async function POST(req: NextRequest) {
           </table>
         `;
         break;
-      case 'temoignage':
-        subject = 'Nouveau témoignage reçu';
-        html = `
-          <h2>Nouveau témoignage</h2>
-          <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse;">
-            <tr><td><b>Nom</b></td><td>${formData.name || ''}</td></tr>
-            <tr><td><b>Localisation</b></td><td>${formData.location || ''}</td></tr>
-            <tr><td><b>Note</b></td><td>${formData.rating || ''}</td></tr>
-            <tr><td><b>Titre</b></td><td>${formData.title || ''}</td></tr>
-            <tr><td><b>Témoignage</b></td><td>${formData.testimonial || ''}</td></tr>
-          </table>
-        `;
-        break;
       default:
         html = `<pre>${JSON.stringify(formData, null, 2)}</pre>`;
     }
