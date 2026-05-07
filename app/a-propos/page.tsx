@@ -120,8 +120,8 @@ export default function AboutPage() {
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <Phone size={18} className="text-brand-700" />
-                        <a href="tel:514-623-4280" className="text-gray-700 hover:text-brand-700 transition-colors">
-                          514‑623‑4280
+                        <a href="tel:438-230-3300" className="text-gray-700 hover:text-brand-700 transition-colors">
+                          438-230-3300
                         </a>
                       </div>
                       <div className="flex items-center gap-3">
@@ -239,7 +239,7 @@ export default function AboutPage() {
                   <div>
                     <h3 className="font-bold text-lg mb-2">{t("about.phoneTitle")}</h3>
                     <a
-                      href="tel:514-623-4280"
+                      href="tel:438-230-3300"
                       className="text-brand-700 hover:text-brand-800 transition-colors text-lg"
                     >
                       514‑623‑4280
@@ -307,7 +307,7 @@ export default function AboutPage() {
                 variant="outline"
                 className="border-white text-black bg-white hover:bg-white/90"
               >
-                <a href="tel:514-623-4280">
+                <a href="tel:438-230-3300">
                   {t("common.callUs")}: {t("common.phone")}
                 </a>
               </Button>
